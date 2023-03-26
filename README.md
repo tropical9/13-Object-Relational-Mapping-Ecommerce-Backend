@@ -1,5 +1,8 @@
 # Object Relational Mapping Ecommerce Backend
 
+## Description
+This project was created for the week 13 challenge of my coding bootcamp. The goal of this challenge is to build the back end for an e-commerce site.
+
 ```
 User Story
 AS A manager at an internet retail company
@@ -21,31 +24,13 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-
+[![Walkthrough video](./assets/13-Object-Relational-Mapping-Ecommerce-Backend-Vidoe.mp4)]
+## Credits
 Starter code from: https://github.com/coding-boot-camp/fantastic-umbrella
 
-get routes to return all category
-localhost:3001/api/tags
-products
-categories
-
-get routes to return a single category, prodcuts and tag
+## Installation
+This application will use Express.js, Sequelize, MySQL database. 
 
 
-localhsot:3001/api/tags/1
-
-
-post put delete
-post  localhost/api/categories/
-{
-    "category_name": "underwear"
-}
-
-put
-localhost/api/categories/6
-{
-    "category_name" : "underwear"
-}
-
-delete
-localhost:3001/api/categories/6
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
